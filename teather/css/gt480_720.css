@@ -1,0 +1,21 @@
+header{position: relative !important;}
+header div{width: 96%;padding-left: 2%;padding-right: 2%;}
+header div h1 a{height: 50px !important;}
+header div nav{display: none;}
+header div .meun{display: block !important;width: 5%;height: 24px;position: absolute;right: 5%;top: 50%;margin-top: -12px;cursor: pointer;}
+header div .text{display: block;}
+.header{padding-top: 0 !important;}
+footer{width: 80%;padding-left: 10%;padding-right: 10%;}
+footer div .ul1 li{width:50%;text-align: left;padding-top: 24px;padding-bottom: 24px;}
+footer div .ul1 li:nth-child(3),footer div .ul1 li:nth-child(4){padding-top: 10px;}
+footer div .ul1 li p{font-size: 0.75rem !important;}
+footer div .ul1 li:nth-child(4){width: 50%;}
+.container{width: 96%;padding-left: 2%;padding-right: 2%;}
+.container section h2{font-size: 1.6rem;line-height: 45px;}
+.container section h2 span{font-size: 1.35rem;}
+.container section ul li{height: auto;width: 32%;margin-right: 2%;margin-bottom: 20px;}
+.container section ul li:nth-child(4),.container section ul li:nth-child(8){margin-right: 2%;}
+.container section ul li:nth-child(3),.container section ul li:nth-child(6),.container section ul li:nth-child(9),.container section ul li:nth-child(12){margin-right: 0;}
+.container section ul li>img{margin-bottom: 0;cursor: pointer;}
+.container section ul li>div:nth-of-type(2){display: none;}
+

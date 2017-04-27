@@ -1,0 +1,22 @@
+header{position: relative !important;}
+header div{width: 96%;padding-left: 2%;padding-right: 2%;}
+header div h1 a{height: 40px !important;}
+header div nav{display: none;}
+header div .meun{display: block !important;width: 5%;height: 24px;position: absolute;right: 5%;top: 50%;margin-top: -12px;cursor: pointer;}
+header div .text{display: block;height: 50px;line-height: 50px;margin-top: -25px;}
+.header{padding-top: 0 !important;}
+.header ul{height: 90px;}
+.header ul li{width: 25%;}
+footer div .ul1{display: none;}
+footer div .ul2{display: block;}
+footer{padding-top: 24px;padding-bottom: 24px;}
+.btn{display: block;}
+.container{width: 96%;padding-left: 2%;padding-right: 2%;}
+.container section h2{font-size: 1.5rem;line-height: 40px;}
+.container section h2 span{font-size: 1.25rem;}
+.container section ul li{height: auto;width: 48%;margin-right: 2%;margin-bottom: 20px;}
+.container section ul li:nth-child(2),.container section ul li:nth-child(4),.container section ul li:nth-child(6),.container section ul li:nth-child(8),.container section ul li:nth-child(10),.container section ul li:nth-child(12){margin-right: 0;}
+.container section ul li>div:nth-of-type(2){display: none;}
+.container section ul li>img{cursor: pointer;}
+.dialog div{
+    display: none;}

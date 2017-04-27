@@ -1,0 +1,15 @@
+header{position: relative !important;}
+header div{width: 96%;padding-left: 2%;padding-right: 2%;}
+header div h1 a{height: 40px !important;}
+header div nav{display: none;}
+header div .meun{display: block !important;width: 5%;height: 24px;position: absolute;right: 5%;top: 50%;margin-top: -12px;cursor: pointer;}
+header div .text{display: block;height: 50px;line-height: 50px;margin-top: -25px;}
+.header{padding-top: 0 !important;}
+.header ul{height: 90px;}
+.header ul li{width: 25%;}
+.container section p.big{font-size: 1.2rem;margin-top: 10px;}
+.container section h4{margin-top: 20px;}
+footer{padding-top: 24px;padding-bottom: 24px;}
+footer div .ul1{display: none !important;overflow: hidden;}
+footer div .ul2{display: block !important;}
+.container{width: 92% !important;padding-left:4%;padding-right: 4%;margin-bottom: 60px;}

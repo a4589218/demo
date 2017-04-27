@@ -1,0 +1,24 @@
+header{position: relative !important;}
+header div{width: 96%;padding-left: 2%;padding-right: 2%;}
+header div h1 a{height: 50px !important;}
+header div nav{display: none;}
+header div .meun{display: block !important;width: 5%;height: 24px;position: absolute;right: 5%;top: 50%;margin-top: -12px;cursor: pointer;}
+header div .text{display: block;}
+.header{padding-top: 0 !important;}
+footer{width: 80%;padding-left: 10%;padding-right: 10%;}
+footer div .ul1 li{width:50%;text-align: left;padding-top: 24px;padding-bottom: 24px;}
+footer div .ul1 li:nth-child(3),footer div .ul1 li:nth-child(4){padding-top: 10px;}
+footer div .ul1 li p{font-size: 0.75rem !important;}
+footer div .ul1 li:nth-child(4){width: 50%;}
+.container {width:90%;padding-left:5%;padding-right: 5%; margin: 25px auto 80px;}
+.container aside,.container section{float: none;}
+.container aside{width: 100%;}
+.container aside ul{border: 0;}
+.container aside ul li{float: left; font-size: 1.1rem;padding-left:0;width:45%;margin-left: 5%;margin-bottom: 20px;}
+.container aside ul li:nth-child(1){background: url(../images/service_04.jpg) no-repeat center top;border-color: #f99736;}
+.container aside ul li:nth-child(2){background: url(../images/service_05.jpg) no-repeat center top;}
+.container aside ul li:nth-child(3){background: url(../images/service_08.jpg) no-repeat center top;}
+.container aside ul li:nth-child(4){background: url(../images/service_10.jpg) no-repeat center top;}
+.container aside ul li a{height: 60px;line-height: 60px;padding-top:30px;text-align:center;padding-left: 0;}
+.container section{margin: 20px auto;width: 100%;}
+.container section p{text-indent: 4.6852%;}

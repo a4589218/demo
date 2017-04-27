@@ -1,0 +1,15 @@
+header div h1 a{height: 60px !important;}
+.header{padding-top:70px;width: 100%;}
+.header ul{height:0;display: none;overflow: hidden;}
+footer{width: 80%;padding-left: 10%;padding-right: 10%;}
+footer div .ul1 li{width:40%;text-align: left;}
+footer div .ul1 li:nth-child(1),footer div ul li:nth-child(3){margin-right: 20% !important;}
+footer div .ul1 li p{font-size: 0.75rem !important;}
+footer div .ul1 li:nth-child(4){width: 40%;}
+.container {width: 96%;padding-left: 2%;padding-right: 2%;}
+.container section h2{font-size: 1.7rem;line-height: 50px;}
+.container section h2 span{font-size: 1.4rem;}
+.container section ul li>div:nth-of-type(2){display: block !important;}
+.main{
+    display: none !important;
+}

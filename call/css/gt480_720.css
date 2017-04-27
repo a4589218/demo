@@ -1,0 +1,15 @@
+header{position: relative !important;}
+header div{width: 96%;padding-left: 2%;padding-right: 2%;}
+header div h1 a{height: 50px !important;}
+header div nav{display: none;}
+header div .meun{display: block !important;width: 5%;height: 24px;position: absolute;right: 5%;top: 50%;margin-top: -12px;cursor: pointer;}
+header div .text{display: block;}
+.header{padding-top: 0 !important;}
+footer{width: 80%;padding-left: 10%;padding-right: 10%;}
+footer div .ul1 li{width:50%;text-align: left;padding-top: 24px;padding-bottom: 24px;}
+footer div .ul1 li:nth-child(3),footer div .ul1 li:nth-child(4){padding-top: 10px;}
+footer div .ul1 li p{font-size: 0.75rem !important;}
+footer div .ul1 li:nth-child(4){width: 50%;}
+.container section h4{margin-top: 30px;}
+.container section p.big{font-size: 1.3rem;margin-top: 14px;}
+.container{width: 92%;padding-left:4%;padding-right: 4%;margin-bottom: 80px;}

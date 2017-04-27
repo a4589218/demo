@@ -1,0 +1,7 @@
+.container aside ul li:nth-child(1){background: url(../images/service_03.jpg) no-repeat 7.5187% center;border-color:#fff;}
+.container aside ul li:nth-child(2){background: url(../images/service_05.jpg) no-repeat 7.5187% center;border-color:#fff;}
+.container aside ul li:nth-child(3){background: url(../images/service_09.jpg) no-repeat 7.5187% center;border-color:#f99736;}
+.container aside ul li:nth-child(4){background: url(../images/service_10.jpg) no-repeat 7.5187% center;border-color:#fff;}
+
+.container section p span{margin-right: 4.444%;font-size: 1.5rem;float:left;display: inline-block;line-height: 30px;}
+.container section p span:last-child{margin-right: 0;}

@@ -1,0 +1,9 @@
+*{margin:0;padding:0;}
+ul,li,p,img,h1,h2,h3,h4,h5,h6,label,header,footer,nav,aside,figcaption,dialog,section,hgroup,address{display:block;}
+ul{list-style:none;}
+img{border:0;width: 100%;}
+a{text-decoration:none;outline:none;}
+.clearfix:after{display:block;height:0;content:".";clear:both;visibility:hidden;}
+.ellipsis{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+html{font-size: 100%;}
+body{font-family: "microsoft yahei";font-size: 1rem;}

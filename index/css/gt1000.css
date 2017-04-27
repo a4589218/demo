@@ -1,0 +1,19 @@
+header div ul li:hover{background: #5c5c5c;}
+.header ul{height:0;overflow: hidden;}
+.hidden{display: block !important;}
+.container .case ul li:hover{border-color: #fa953b;}
+.container .case ul li:nth-child(1):hover{background: url(../images/pic.png) no-repeat -21px -167px;}
+.container .case ul li:nth-child(2):hover{background: url(../images/pic.png) no-repeat -270px -167px;}
+.container .case ul li:nth-child(3):hover{background: url(../images/pic.png) no-repeat -560px -167px;}
+.container .case ul li:nth-child(4):hover{background: url(../images/pic.png) no-repeat -841px -167px;}
+.container .install ul li:hover div{opacity: 1;}
+.container .opus ul li:hover div{opacity: 1;}
+.container .star ul li:hover div{opacity: 1;}
+.container .mien ul li h3 a:hover{color: #fa9634;}
+.container .install ul li:nth-child(5) div,.container .install ul li:nth-child(7) div{
+    padding-top: 15px !important;
+    height: 100%;
+}
+.container .install ul li:nth-child(5) div p,.container .install ul li:nth-child(7) div p{
+    line-height: 20px;
+}

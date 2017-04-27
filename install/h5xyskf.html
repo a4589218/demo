@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta charset="UTF-8">
+		<title>h5响应式开发</title>
+		<link rel="shortcut icon" href="images/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="../js/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/h5.css"/>
+		<link rel="stylesheet" media="screen and (min-width:1000px)" href="css/gt1000.css"/>
+		<link rel="stylesheet" media="screen and (min-width:721px) and (max-width:1000px)" href="css/gt720_1000.css"/>
+		<link rel="stylesheet" media="screen and (min-width:480px) and (max-width:720px)" href="css/gt480_720.css"/>
+		<link rel="stylesheet" media="screen and (min-width:520px) and (max-width:585px)" href="css/gt480_585.css"/>
+		<link rel="stylesheet" media="screen and (min-width:480px) and (max-width:520px)" href="css/gt480_520.css"/>
+		<link rel="stylesheet" media="screen and (max-width:480px)" href="css/lt480.css"/>
+		<script src="../js/jquery.js"></script>
+		<style type="text/css">
+			@media screen and (min-width:480px) and (max-width:720px){
+					.container aside ul li:nth-child(1){background:url(images/left_link_02.jpg) no-repeat top center;border-color: #fff;}
+					.container aside ul li:nth-child(2){background:url(images/left_link_06.jpg) no-repeat top center;}
+					.container aside ul li:nth-child(3){background:url(images/left_link_08.jpg) no-repeat top center;}
+					.container aside ul li:nth-child(4){background:url(images/left_link_10.jpg) no-repeat top center;}
+					.container aside ul li:nth-child(5){background:url(images/left_link_13.jpg) no-repeat top center;border-color: #F99736;}
+					.container aside ul li:nth-child(6){background:url(images/left_link_14.jpg) no-repeat top center;}
+					.container aside ul li:nth-child(7){background:url(images/left_link_16.jpg) no-repeat top center;}
+					.container aside ul li:nth-child(8){background:url(images/left_link_18.jpg) no-repeat top center;}
+					.container aside ul li:nth-child(9){background:url(images/left_link_20.jpg) no-repeat top center;}
+				}
+			@media screen and (max-width:480px){
+				.container aside ul li:nth-child(1){background:url(images/left_link_02.jpg) no-repeat top center;}
+				.container aside ul li:nth-child(2){background:url(images/left_link_06.jpg) no-repeat top center;}
+				.container aside ul li:nth-child(3){background:url(images/left_link_08.jpg) no-repeat top center;}
+				.container aside ul li:nth-child(4){background:url(images/left_link_10.jpg) no-repeat top center;}
+				.container aside ul li:nth-child(5){background:url(images/left_link_13.jpg) no-repeat top center;}
+				.container aside ul li:nth-child(6){background:url(images/left_link_14.jpg) no-repeat top center;}
+				.container aside ul li:nth-child(7){background:url(images/left_link_16.jpg) no-repeat top center;}
+				.container aside ul li:nth-child(8){background:url(images/left_link_18.jpg) no-repeat top center;}
+				.container aside ul li:nth-child(9){background:url(images/left_link_20.jpg) no-repeat top center;}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="clearfix">
+				<h1><a href="../index.html"><img src="images/logo.jpg"/></a></h1>
+				<nav>
+					<ul class="clearfix">
+						<li><a href="../index.html">首页</a></li>
+						<li><a href="../general/feature.html">学院概况</a></li>
+						<li><a href="../install/hjyssj.html">课程设置</a></li>
+						<li><a href="../mien/newborn.html">校园风采</a></li>
+						<li><a href="../index.html#work">学院作品</a></li>
+						<li><a href="../teather/teather.html">师资力量</a></li>
+						<li><a href="../serve/enroll.html">学院服务</a></li>
+						<li><a href="../call/call.html">联系我们</a></li>
+					</ul>
+				</nav>
+				<div class="meun"><img src="images/icon.png"/></div>
+				<p class="text">中关村学院</p>
+			</div>
+		</header>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".meun").click(function(){
+					$(".header ul").slideToggle("slow");
+				});
+			});
+		</script>
+		<div class="header">
+			<ul class="clearfix">
+						<li><a href="../index.html">首页</a></li>
+						<li><a href="../general/feature.html">学院概况</a></li>
+						<li><a href="../install/hjyssj.html">课程设置</a></li>
+						<li><a href="../mien/newborn.html">校园风采</a></li>
+						<li><a href="../index.html#work">学院作品</a></li>
+						<li><a href="../teather/teather.html">师资力量</a></li>
+						<li><a href="../serve/enroll.html">学院服务</a></li>
+						<li><a href="../call/call.html">联系我们</a></li>
+					</ul>
+		</div>
+		<div class="container clearfix">
+			<aside>
+				<ul class="clearfix">
+					<li><a href="hjyssj.html">环境艺术<span>设计</span></a></li>
+					<li><a href="szysdh.html"><span>数字</span>影视动画</a></li>
+					<li><a href="dsjyjs.html">大数据<span>云计算</span></a></li>
+					<li><a href="phpwzkf.html">PHP<span>网站开发</span></a></li>
+					<li><a href="h5xyskf.html"><span>H5</span>响应式开发</a></li>
+					<li><a href="ydkf.html"><span>Andriod</span>移动开发</a></li>
+					<li><a href="cmyssj.html">传媒艺术<span>设计</span></a></li>
+					<li><a href="dxssg.html"><span>大学生</span>上岗培训</a></li>
+					<li><a href="dxztc.html">大学直通车</a></li>
+				</ul>
+			</aside>
+			
+			<section>
+				<h3>培养目标</h3>
+				<p>学习PC网站和移动网站的前端构建、交互设计与效果实现。规范化手写代码，要求结构清晰，命名规范，逻辑性强，冗余率低。注重用户体验，确保代码良好的兼容性（能够在IE、FireFox、Google、opera、safari正常浏览）;熟知Android、IOS、Win phone 等移动设备的特点并确保代码快速响应。</p>
+				<img src="images/h5_03.jpg"/>
+				<h3>就业回报</h3>
+				<p>Web前端工程师是市场上紧缺的高技能人才，每天有数万家企业招聘该岗位,入行工资(月薪)普遍可达6-8K,优秀者可达10K-15K,入行后随着工作经验的日趋丰富与技术层次的不断提高,资深H5开发工程师的薪质可达20K-40K。</p>
+				<h3>核心课程</h3>
+				<p>HTML+CSS、javaScript、jQuery、jQuery-mobile、HTML5+CSS3、响应式开发项目实训。</p>
+				<img src="images/h5_06.jpg"/>
+				<h3>就业岗位</h3>
+				<p>WEB前端工程师、网站交互开发程序员、H5响应式开发工程师</p>
+			</section>
+		</div>
+		<footer>
+			<div>
+				<ul class="clearfix ul1">
+					<li class="clearfix">
+						<p>咨询电话：</p>
+						<p>
+							010-58447031<br />
+							010-58447030
+						</p>
+					</li>
+					<li>
+						<p>咨询邮箱：bjjxkj@126.com</p>
+						<p>Mobile：15321575023</p>
+					</li>
+					<li class="clearfix">
+						<p>咨询QQ：</p>
+						<p>
+							1718693915<br />
+							1019959019<br />
+							138259017
+						</p>
+					</li>
+					<li>
+						<p>学院网址：http://www/zgcxueyuan.com</p>
+						<p>
+							学院地址：中关村学院二分院(北京市<br />
+							海淀区中关村环保科技园温阳路170号)
+						</p>
+					</li>
+				</ul>
+				<ul class="ul2">
+					<li>
+						<p>咨询电话<br />
+							<span>
+								010-58447031<br />
+								010-58447030
+							</span>
+						</p>
+					</li>
+					<li>
+						<p>咨询邮箱<br />
+							<span>bjjxkj@126.com</span>	
+						</p>
+						<p class="p3">Mobile<br />
+							<span>15321575023</span>
+						</p>
+					</li>
+					<li>
+						<p>咨询QQ <br />
+							<span>
+								1718693915<br />
+								1019959019<br />
+								138259017
+							</span>
+						</p>
+					</li>
+					<li>
+						<p>学院网址<br />
+							<span>http://www/zgcxueyuan.com</span>
+						</p>
+						<p>
+							学院地址<br />
+							<span>中关村学院二分院(北京市
+							海淀区中关村环保科技园温阳路170号)</span>
+						</p>
+					</li>
+				</ul>
+			</div>
+		</footer>
+
+	</body>
+</html>
+<script>
+$(document).ready(function(){
+	$(".ul2 p").click(function(){
+		$(this).find("span").slideToggle("slow");
+	})
+})
+</script>

@@ -1,0 +1,16 @@
+header div h1 a{height: 60px !important;}
+.header{padding-top:70px;width: 100%;}
+section h2{font-size: 2.125rem !important;height: 90px !important;line-height: 90px !important;}
+.header ul{height:0;display: none;overflow: hidden;}
+.container{padding-left: 1.5%;padding-right: 1.5%;width: 97%;}
+.container .install ul{border: 0;}
+.container .install ul li{border: 0;}
+.container .star ul li{width:32.533% !important;margin-bottom: 8px;margin-right: 1.2%;}
+.container .star ul li:nth-child(4),.container .star ul li:nth-child(8){margin-right: 1.2% !important;}
+.container .star ul li:nth-child(3),.container .star ul li:nth-child(6),.container .star ul li:nth-child(9),.container .star ul li:nth-child(12){margin-right: 0 !important;}
+.hidden{display: block !important;}
+footer{width: 80%;padding-left: 10%;padding-right: 10%;}
+footer div .ul1 li{width:40%;text-align: left;}
+footer div .ul1 li:nth-child(1),footer div ul li:nth-child(3){margin-right: 20% !important;}
+footer div .ul1 li p{font-size: 0.75rem !important;}
+footer div .ul1 li:nth-child(4){width: 40%;}

@@ -1,0 +1,4 @@
+.container section h3{height: 40px;line-height: 40px;color: #f1992d;font-size: 1.125rem;}
+.container section p{text-indent: 0;}
+.container aside ul li:nth-child(1){background: url(../images/xygk_02.jpg) no-repeat 7.5187% center;border-color:#FFFFFF;}
+.container aside ul li:nth-child(2){background: url(../images/xygk_07.jpg) no-repeat 7.5187% center;border-color: #f99736;}

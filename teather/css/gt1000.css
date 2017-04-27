@@ -1,0 +1,6 @@
+header div ul li:hover{background: #5c5c5c;}
+.header ul{height:0;overflow: hidden;}
+.container section ul li>div:nth-of-type(2){display: block !important;}
+.main{
+    display: none !important;
+}
